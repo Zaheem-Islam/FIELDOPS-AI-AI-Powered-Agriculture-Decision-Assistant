@@ -2,3 +2,5 @@ streamlit
 google-genai
 pillow
 python-dotenv
+gTTS
+pyttsx3

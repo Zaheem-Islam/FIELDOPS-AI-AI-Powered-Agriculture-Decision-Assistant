@@ -116,7 +116,8 @@ def analyze_field(
     forecast,
     temperature,
     notes,
-    image_bytes=None
+    image_bytes=None,
+    language="en",
 ):
     fallback = _fallback(
         crop,
@@ -133,11 +134,13 @@ def analyze_field(
     if not client:
         return fallback
 
+    output_language = "Urdu in Urdu script" if language == "ur" else "English"
     prompt = f"""
 You are the Coordinator for FIELDOPS AI,
 an agriculture decision-support prototype.
 
 Analyze this controlled field assessment and return ONLY valid JSON.
+Write every user-facing string value in {output_language}. Keep JSON keys in English.
 
 Inputs:
 

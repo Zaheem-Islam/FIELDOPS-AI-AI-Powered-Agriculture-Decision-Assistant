@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd 'd:\\\\proj\\\\FIELDOPS-AI-AI-Powered-Agriculture-Decision-Assistant'; python -m unittest -q; python -m compileall app\\.py voice_utils\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"import re; from i18n import localize_irrigation,translate_text; from rag import retrieve_guidance; method=localize_irrigation\\(\\{'recommendation':'Recommended','liters':2000,'method':'Controlled demo rule: low soil moisture \\+ limited rainfall'\\},'ur'\\)\\['method'\\]; evidence=\\[translate_text\\(x,'ur'\\) for x in retrieve_guidance\\('Wheat','Flowering',220,3\\)\\]; print\\('method:',method\\); print\\('evidence:',evidence\\); print\\('english leftovers:',\\[x for x in \\[method,\\*evidence\\] if re\\.search\\('\\[A-Za-z\\]',x\\)\\]\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
