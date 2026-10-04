@@ -1,0 +1,14 @@
+WHEAT — FLOWERING
+Wheat at flowering is a water-sensitive stage. Low soil moisture during this stage warrants closer water-stress monitoring.
+
+WATER MANAGEMENT
+Irrigation decisions should consider crop stage, current soil moisture, recent rainfall and expected rainfall together.
+
+SOIL MOISTURE
+Soil moisture should not be interpreted as an isolated value. Field condition, crop stage and weather should be considered together.
+
+CROP HEALTH SCREENING
+Visible leaf symptoms can support preliminary screening. A field inspection and validated diagnosis are required before disease treatment decisions.
+
+RESPONSIBLE USE
+AI recommendations are decision support. Missing or low-quality evidence should reduce confidence rather than be silently invented.
